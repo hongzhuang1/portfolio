@@ -35,6 +35,13 @@ h2 {
   padding: 0;
   text-transform: uppercase;
 }
+h3 {
+  color: #256FF8;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 0;
+}
 a {
   color: #256FF8;
   font-weight: 600;
@@ -60,6 +67,22 @@ section {
   flex-direction: column;
   padding: 10px;
   width: 80%;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: row;
+}
+.thumbnail {
+  border: 0;
+  height: 100px;
+  margin: 0 10px 0 0;
+  width: 100px;
+}
+.portfolio-item-description p:first-of-type {
+  margin-top: 0;
+}
+.skills {
+  font-weight: bold;
 }
 .contact-list {
   display: flex;
